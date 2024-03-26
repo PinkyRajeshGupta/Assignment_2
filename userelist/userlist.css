@@ -1,0 +1,150 @@
+/* .table {
+  border-collapse: collapse;
+  margin: 5px 0;
+  font-size: 0.9em;
+  font-family: cursive;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.container {
+  width: 100%;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  text-align: center;
+}
+.spinner {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  width: 120px;
+  height: 120px;
+  animation: spin 3s linear infinite;
+  margin: 100px 0 0 100px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.table thead tr th {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.table th,
+.table td {
+  padding: 12px 15px;
+}
+
+.table tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.table tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.pagination {
+
+  display: flex;
+  flex-direction: row;
+  ul {
+    list-style-type: none;
+    background-color: #009879;
+    display: flex;
+    padding: 0;
+    button {
+
+      border: 1px solid black;
+      align-items: center;
+    }
+  }
+} */
+body {
+  /* overflow-y: hidden; */
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh; /* Adjusted to take up full viewport height */
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Your existing CSS styles below */
+.table {
+  border-collapse: collapse;
+  margin: 5px 0;
+  font-size: 0.9em;
+  font-family: cursive;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.title {
+  text-align: center;
+}
+.spinner {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  width: 120px;
+  height: 120px;
+  animation: spin 3s linear infinite;
+  margin: 100px 0 0 100px;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.table thead tr th {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+.table th,
+.table td {
+  padding: 5px 15px;
+}
+.table tr {
+  border-bottom: 1px solid #dddddd;
+}
+.table tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.table tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+.pagination {
+  display: flex;
+  flex-direction: row;
+}
+.pagination ul {
+  list-style-type: none;
+  background-color: #009879;
+  display: flex;
+  padding: 0;
+}
+.pagination ul button {
+  border: 1px solid black;
+}

@@ -1,0 +1,27 @@
+li {
+  display: flex;
+  flex-direction: row;
+
+  button {
+    height: 20px;
+    margin: 4px;
+    border: 2px solid rgb(49, 71, 137);
+  }
+  p {
+    font-size: 20px;
+  }
+}
+.container {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.inner-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: aquamarine;
+  border: 2px solid rgb(37, 12, 61);
+}
